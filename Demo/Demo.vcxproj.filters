@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{b82dd009-17eb-4e5f-9a3f-1868f2f83782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Scripts">
+      <UniqueIdentifier>{ce3ff63e-58eb-4b54-b3ce-e13d49859682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{d19d71b8-8292-4541-a33e-787358781058}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glfw3.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="bass.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="glew.h">
+      <Filter>Libraries</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glfw3.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="bass.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="glew32s.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="debug-post-build.bat">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="release-post-build.bat">
+      <Filter>Scripts</Filter>
+    </None>
+    <None Include="Data\fragmentshader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Data\vertexshader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
